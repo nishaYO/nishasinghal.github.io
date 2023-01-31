@@ -11,11 +11,11 @@ Currently, I am learning web development (HTML, CSS, and JavaScript).
 
 ## Skills
 
--Python  ---
--Javascript---
--HTML and CSS---
--C---
--Linux---
+🔘Python
+🔘Javascript
+🔘HTML and CSS
+🔘C
+🔘Linux
 
 If you would like to get in touch, you can reach me at nishasinghal979@gmail.com 
 I would love to hear from you!😄😄
