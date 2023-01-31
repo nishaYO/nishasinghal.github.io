@@ -25,3 +25,7 @@ nav ul li {
   font-family: Aboreto;
   font-weight: 1000;
 }
+
+a{
+  text-decoration: none;
+}
