@@ -4,10 +4,10 @@
 }
 
 /* home page */
-#home {
+/* #home {
   height: 100vh;
   width: 100%;
-}
+} */
 
 nav ul li {
   list-style: none;
@@ -26,19 +26,23 @@ nav ul li {
 }
 
 /* about page */
-#about{
+/* #about{
   height: 100vh;
   width: 100%;
-}
+} */
 
-.container{
-  width: 50%;
-  height: 70%;
+/* blog page */
+
+.custom-container{
   background-color: rgba(223, 214, 214, 0.25);
   border-radius: 10px;
   border: none;
-  padding: 10px 60px;
-  color: white;
   font-family: Aboreto;
   font-weight: 1000;
+  font-size: 50px;
+  color: white;
+  margin: 20px;
+  padding: 20px 10px;
+  
 }
+
