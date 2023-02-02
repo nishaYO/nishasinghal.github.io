@@ -1,4 +1,3 @@
-// buttons when hovered darker color plus increase size and when clicked darker color.
 // when hovered color darker
 
 let hover = document.querySelectorAll(".hover-btn");
@@ -28,10 +27,10 @@ work.addEventListener("click", function () {
   window.location.href = "/work.html";
 });
 
-blogs.addEventListener('click', function(){
-   window.location.href = '/blogs.html';
+blogs.addEventListener("click", function () {
+  window.location.href = "/blogs.html";
 });
 
-contact.addEventListener("click", function(){
-    window.location.href = '/contact.html';
+contact.addEventListener("click", function () {
+  window.location.href = "/contact.html";
 });
