@@ -1,0 +1,14 @@
+.blog-bg{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: fit-content;
+}
+
+.blog-pg{
+    background-color: rgb(0, 0, 0);
+    color: rgb(201, 201, 201);
+    width: 45em;
+    text-align: left;
+    font-size: 20px;
+    padding: 200px 20px 200px 40px;
+}

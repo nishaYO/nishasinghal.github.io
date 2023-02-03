@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Make Your First Website✨</title>
+    <!-- linking all css files -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utils.css" />
+    <link rel="stylesheet" href="css/rough.css" />
+    <link rel="stylesheet" href="css/blog.css" />
+
+    <!-- importing google fonts "Aboreto" -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="blog-bg flex-center">
+      <div class="blog-pg">
+        Heyo guys, this is my first blog. Super Excited for this.😁 So in this
+        blog we are gonna make a website.✨<br />
+        This blog tutorial is beginner friendly and does not require any prior
+        programming knowledge at all. <br /><br />
+
+        So before we get started lemme show you what you will have made by the
+        end of this blog.<br />👇👇👇 <br /><br />
+        <img src="/images/blog1/result.png" alt="final result" width="700px" />
+        <br /><br /><br /><br />
+        Prerequisite<br /><br />
+        VS Code(a code editor) installed. <br /><br />
+
+        Note: My aim in this blog is to help you build a website with as minimal
+        theory and knowledge as possible, so that you can get started in web
+        development. However, in my later blogs, I will increase the complexity
+        to further improve your understanding. So let’s get started.😃<br /><br />
+        Firstly create a folder on your desktop. Enter inside it. Then right
+        click. Click on show more options. Then click on Open with VS code.<br /><br />
+        <img
+          src="/images/blog1/open-editor.png"
+          alt="open-editor"
+          width="700px"
+        /><br /><br /><br />
+        This is how VS Code will look like.👇<br /><br />
+        <img
+          src="/images/blog1/vscode.png"
+          alt="vscode"
+          width="700px"
+        /><br /><br />
+        On the left side all the files that are created are shown. And on the
+        right side all the opened files are shown. <br /><br /><br /><br />Now
+        let’s start by creating an html file with the name “index.html”. Now why
+        the name index.html? Extension html tells that the file is an html
+        document. And index is a special name because when somebody clicks on
+        your website this is the first page that is opened and from this page we
+        can navigate to other webpages of the website.<br /><br />
+        Now after creating a file, let’s enter inside it. Type “!” and press
+        enter. This will generate a boiler plate which looks something like
+        this.<br /><br /><br /><br />
+        <img
+          src="/images/blog1/boilerplate.png"
+          alt="boilerplate"
+          width="700px"
+        /><br /><br />
+        If you couldn't generate one. Here's is the template copy it and paste
+        it.<br /><br />
+        &lt;!DOCTYPE html&gt;<br />
+        &lt;html lang="en"&gt;<br />
+        &lt;head&gt;<br />
+        &lt;meta charset="UTF-8"&gt;<br />
+        &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;<br />
+        &lt;meta name="viewport" content="width=device-width,
+        initial-scale=1.0"&gt;<br />
+        &lt;title&gt;Document&lt;/title&gt;<br />
+        &lt;/head&gt;<br />
+        &lt;body&gt;<br />
+
+        &lt;/body&gt;<br />
+        &lt;/html&gt;<br />
+        <br /><br />Now let’s take two minutes and understand the bolierplate.
+        (diagram explaining boilerplate.)<br /><br />
+        All these html, head, body, title are called tags and inside them is
+        some content. First line tells the document type i.e. html here. Second
+        line has an html tag which is the root element i.e. everything is inside
+        it. Html has two children. Head and body tags. Inside the head tag is
+        the metadata i.e. information about your website for example the title
+        of your website and inside body is gonna be all the content we wanna
+        display in our website.<br /><br />
+
+        I will use the term tag and element from now on.<br /><br />
+
+        Now in the title tag write Your name instead of Document. And in the
+        body tag write the main content that you wanna show on your page. I
+        leave this to your imagination.<br /><br /><br /><br />Mine looks like
+        this right now.<br /><br /><img
+          src="/images/blog1/text.png"
+          alt="text"
+          width="700px"
+        /><br /><br />
+        Trick => use shortcut key windows + . to enable emojis menu.<br /><br />
+
+        Now to see your web page changing in real time I would suggest you to
+        install live server extension in VS code. To install it, open extensions
+        (Ctrl + Shift + X) Search live server, select the first one, click on
+        install. <br /><br />Once installed, click on Ctrl + F4 to close the
+        tab. Then go back to file explorer(Ctrl + Shift + E) In your index file,
+        right click. In the menu you can see the option “Open with live server”.
+        Click on it.<br /><br />
+        Wait a few seconds and voila!<br /><br /><img
+          src="images/blog1/firstlook.png"
+          alt="firstlook"
+          width="700px"
+        />
+        <br /><br />
+        Theory time!!<br /><br />
+
+        So far we have used only HTML. Hyper Text Markup Language is similar to
+        text file as we just put some text inside both of them. But the
+        difference here is that all the tags inside HTML help the web
+        browser(chrome, edge, etc.) classify our content into headings,
+        paragraphs etc.. More on that in my later blogs. For now we can think of
+        HTML as nothing more than a file where we put all the content.
+        <br /><br /><br /><br />Let’s admit that the web page we just built is
+        kinda boring. So let’s design it. 🎨🖌️
+        <br />
+        This is where CSS language comes into picture. Cascading Style Sheets
+        (CSS) are responsible for all the color, font, website layouts that we
+        see in different websites. Let’s go by the convention and name our css
+        file style.css Again “style” is by convention. It could be anything you
+        want and .css tells that it is a css file.
+        <br />
+        Inside the file, write something like this:<br /><br />
+        <br /><img
+          src="/images/blog1/body.png"
+          alt="body tag"
+          width="700px"
+        /><br /><br />This way we are referring to the body tag. Now whatever we
+        write inside it is gonna apply on the body tag. Now I want to change the
+        background-color to cyan. So I will simply write: To do that simply
+        write bgc inside body and VS Code editor has automatically suggested
+        us<br /><br />
+        <img
+          src="/images/blog1/bgcolor.png"
+          alt="bgcolor"
+          width="700px"
+        /><br /><br />
+
+        Now removing the default color, type the color you like. I am going with
+        cyan here. Shortcuts like these(entering the first letter of the words
+        like bgc for background color)makes our coding process super easy and
+        fast.<br /><br />
+
+        Let’s save it(Ctrl+S) and see our website on the browser. Oops nothing
+        changed!!🤔
+        <br /><br />
+        This is because our index.html file doesn’t know that style.css exists.
+        We gotta link them together. To do that, come back to the index.html
+        file. Inside the head tag after title tag, write link and in the menu
+        choose link : css and enter.
+        <br /><br /><br /><br />
+        <img
+          src="images/blog1/link css.png"
+          alt="link css"
+          width="700px"
+        /><br /><br />
+        <img src="images/blog1/link.png" alt="link" width="700px" /><br /><br />
+        Inside the href attribute the name of your css file should be written.
+        In my case it is style.css Now that we have linked the files
+        successfully let’s save it (Ctrl+S) see the page again.<br /><br />
+
+        This looks like something. Pat your back if you have followed me so
+        far.<br /><br />
+
+        Next I want to align the text vertically and horizontally. There can be
+        many ways to do that. We are going to add two properties here:<br /><br /><br /><br />
+
+        text-align: center; <br /><br />padding: 20% 0;<br /><br /><br /><br />
+        <img
+          src="/images/blog1/align.png"
+          alt="align"
+          width="700px"
+        /><br /><br /><br /><br />
+        Now your webpage looks something like this.<br /><br />
+        <img
+          src="/images/blog1/styledpage.png"
+          alt="styledpage"
+          width="700px"
+        />
+        <br /><br /><br /><br />Let’s say you feel like increasing the
+        font-size. So let’s see typing fs(shortcut for font size) and see if
+        there is any property like this. Indeed there is called font-size.
+        <br /><br />
+        <img
+          src="/images/blog1/font.png"
+          alt="font"
+          width="700px"
+        /><br /><br /><br /><br />
+        Select it and enter “larger” as its value. Save it and your website is
+        ready.<br /><br />
+        meme
+        <br /><br />
+        Thanks for reading this if you get stuck somewhere or have any query
+        then don't at all hesitate to ask me(link). Now if you enjoyed this and
+        wanna read more such blogs in this continuation do subscribe below and
+        you will be notified every time i put out a new blog. <br /><br />Thanks
+        for reading. Peace.<br /><br />
+      </div>
+    </div>
+  </body>
+  <script src="scripts/button.js"></script>
+</html>

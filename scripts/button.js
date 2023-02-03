@@ -34,3 +34,11 @@ blogs.addEventListener("click", function () {
 contact.addEventListener("click", function () {
   window.location.href = "/contact.html";
 });
+
+
+// blogs page
+// when clicked redirecting to blogs
+let blog1 = document.getElementById("blog1");
+blog1.addEventListener("click",function(){
+  window.location.href = "http://127.0.0.1:5500/blog1.html";
+});

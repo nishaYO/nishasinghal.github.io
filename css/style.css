@@ -42,3 +42,18 @@ nav ul li {
   width: fit-content;
   min-width: 40em;
 }
+
+
+/* blog page */
+
+.blg-btn{
+  border: none;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background-color: rgba(223, 214, 214, 0.25);
+  border-radius: 10px;
+  font-family: Aboreto;
+  padding: 40px 70px;
+  font-weight: 800;
+  font-size: x-large;
+}
