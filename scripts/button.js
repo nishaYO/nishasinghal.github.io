@@ -20,19 +20,19 @@ let blogs = document.getElementById("blogs");
 let contact = document.getElementById("contact");
 
 about.addEventListener("click", function () {
-  window.location.href = "/about.html";
+  window.location.href = "https://nishayo.github.io/nishasinghal.github.io/about.html";
 });
 
 work.addEventListener("click", function () {
-  window.location.href = "/work.html";
+  window.location.href = "https://nishayo.github.io/nishasinghal.github.io/work.html";
 });
 
 blogs.addEventListener("click", function () {
-  window.location.href = "/blogs.html";
+  window.location.href = "https://nishayo.github.io/nishasinghal.github.io/blogs.html";
 });
 
 contact.addEventListener("click", function () {
-  window.location.href = "/contact.html";
+  window.location.href = "https://nishayo.github.io/nishasinghal.github.io/contact.html";
 });
 
 
@@ -40,5 +40,5 @@ contact.addEventListener("click", function () {
 // when clicked redirecting to blogs
 let blog1 = document.getElementById("blog1");
 blog1.addEventListener("click",function(){
-  window.location.href = "http://127.0.0.1:5500/blog1.html";
+  window.location.href = "https://nishayo.github.io/nishasinghal.github.io/blog1.html";
 });
