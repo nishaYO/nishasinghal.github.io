@@ -11,10 +11,10 @@
   flex-direction: column;
 }
 
-/* a {
+a{
   text-decoration: none;
   color: inherit;
-} */
+}
 
 .bg-color {
   background: linear-gradient(#9fd7df, #e378d5);
@@ -47,3 +47,4 @@
   text-align: center;
   padding-top: 100px;
 }
+
