@@ -4,51 +4,48 @@
   height: fit-content;
 }
 
+.blog-title {
+  width: 55%;
+  color: rgb(31, 145, 31);
+  padding: 180px 20px 170px 40px;
+  text-align: center;
+  line-height: 90px;
+  font-size: 70px;
+  font-family: "Press Start 2P";
+  font-weight: 1000px;
+}
+
 .blog-pg {
   background-color: rgb(0, 0, 0);
   color: rgb(201, 201, 201);
-  text-align: left;
+  width: 30em;
   font-size: 25px;
-  /* padding: 0px 20px 200px 45px; */
-  width: 750px;
-}
-
-.blog-title {
-  font-size: 70px;
-  color: rgb(31, 145, 31);
-  font-family: "Press Start 2P";
-  font-weight: 1000px;
-  width: 55%;
-  padding: 180px 20px 170px 40px;
-  /* border: 5px solid green; */
-  text-align: center;
-  line-height: 90px;
-}
-
-.small-images {
-  width: 500px;
-  /* margin-left: 130px; */
+  text-align: left;
 }
 
 .large-images {
   width: 700px;
 }
 
-h6 {
-  color: rgb(31, 145, 31);
-  font-size: xx-large;
-}
+.small-images {
+  width: 500px;
+}  
 
 .code-snippet {
   background-color: #c6c6c6;
   color: #333;
   padding: 10px;
-  font-family: monospace;
   border: 2px solid rgb(210, 205, 205);
   border-radius: 4px;
   width: 720px;
   height: fit-content;
+  font-family: monospace;
   font-size: 20px;
+}
+
+h6 {
+  color: rgb(31, 145, 31);
+  font-size: xx-large;
 }
 
 .green {
