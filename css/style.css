@@ -8,7 +8,7 @@
 nav ul li {
   list-style: none;
   margin-bottom: 40px;
-}
+} 
 
 .nav-btn {
   color: white;
@@ -56,4 +56,68 @@ nav ul li {
   padding: 40px 70px;
   font-weight: 800;
   font-size: x-large;
+}
+
+/* contact page */
+#contact-title{
+  color: rgb(42, 41, 41);
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+
+#contact-form{
+  color: rgb(42, 41, 41);
+  /* width: 90%;
+  height: 60%; */
+  margin: auto;
+}
+
+.links{
+  width: 90%;
+  height: 30%;
+  margin: auto;
+}
+
+form {
+  width: 80%;
+  height: 70%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="text"]{
+  height: 200%;
+}
+
+button[type="submit"] {
+  width: 20%;
+  padding: 10px;
+  background-color: #7e827ea7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+button[type="submit"]:hover {
+  background-color: #c6cecd;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
 }
