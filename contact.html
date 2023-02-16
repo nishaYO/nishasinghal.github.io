@@ -1,23 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
-     <!-- linking all css files -->
-     <link rel="stylesheet" href="css/style.css" />
-     <link rel="stylesheet" href="css/utils.css" />
-     <link rel="stylesheet" href="css/rough.css" />
- 
-     <!-- importing google fonts "Aboreto" -->
-     <style>
-       @import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap");
-     </style>
-</head>
-<body>
+    <!-- linking all css files -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utils.css" />
+    <link rel="stylesheet" href="css/rough.css" />
+
+    <!-- importing google fonts "Aboreto" -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap");
+    </style>
+  </head>
+  <body>
     <div id="contact" class="flex-center bg-color full-size">
-        <div class="container"></div>
+      <div class="container flex-center-coloumn">
+        <h2 id="contact-title">Contact Me</h2>
+        <div id="contact-form">
+            <form  action="https://formspree.io/f/xjvdyjay" method="POST">
+            <label id="form-mail">
+              Your email:
+              <input type="email" name="email"/>
+            </label><br>
+            <label id="form-message">
+              Your message:
+              <textarea name="message" rows="8"></textarea>
+            </label><br>
+            <button type="submit" id="form-button">Send</button>
+          </form></div>
+        
+        <div class="links flex-center-even"><img id="github" src="/images/github_icon.png" alt="github icon" width="48px"><img id="twitter" src="/images/twitter_icon.png" alt="twitter icon" width="50px"></div>
+      </div>
     </div>
-</body>
+  </body>
+  <script src="scripts/script.js"></script>
 </html>
