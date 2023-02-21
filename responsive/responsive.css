@@ -1,13 +1,17 @@
-@media screen and (max-width: 400px){
-    .custom-container {
-      min-width: 4em;
-      width: 100%;
-    }
-    .box{
-      padding-top: 600px;
-      background-color: #fff;
-      width: 200%;
-      min-width: 4em;
-    }
+@media screen and (max-width: 1400px) {
+  .custom-container {
+    min-width: 4em;
+    width: 100%;
   }
-  
+  .box {
+    padding-top: 600px;
+    background-color: #ffffff00;
+    width: 200%;
+    min-width: 4em;
+    margin: 70px inherit;
+    padding-top: 0px;
+  }
+  .full-size {
+    height: 100vh;
+  }
+}
