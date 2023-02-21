@@ -24,9 +24,9 @@ github.addEventListener('click', ()=>location.href = "https://github.com/nishaYO
 twitter.addEventListener('click', ()=>location.href = "https://twitter.com/Nsinghal1234");
 
 // color change when hovered
-github.addEventListener('mouseenter', ()=>{github.src = "/images/icons/github_icon copy.png"});
-github.addEventListener('mouseleave', ()=>{github.src = "/images/icons/github_icon.png"});
+github.addEventListener('mouseenter', ()=>{github.src = "https://nishayo.github.io/nishasinghal.github.io/images/icons/github_icon copy.png"});
+github.addEventListener('mouseleave', ()=>{github.src = "https://nishayo.github.io/nishasinghal.github.io/images/icons/github_icon.png"});
 
 // color change back to black when hoverout
-twitter.addEventListener('mouseenter', ()=>{twitter.src = "/images/icons/twitter_icon copy.png"});
-twitter.addEventListener('mouseleave', ()=>{twitter.src = "/images/icons/twitter_icon.png"});
+twitter.addEventListener('mouseenter', ()=>{twitter.src = "https://nishayo.github.io/nishasinghal.github.io/images/icons/twitter_icon copy.png"});
+twitter.addEventListener('mouseleave', ()=>{twitter.src = "https://nishayo.github.io/nishasinghal.github.io/images/icons/twitter_icon.png"});

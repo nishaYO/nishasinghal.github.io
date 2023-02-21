@@ -21,26 +21,26 @@ let blogs = document.getElementById("blogs");
 let contact = document.getElementById("contact");
 
 about.addEventListener("click", function () {
-  window.location.href = "/about.html";
+  window.location.href = "https://nishayo.github.io/nishasinghal.github.io/about.html";
 });
 
 work.addEventListener("click", function () {
-  window.location.href = "/work.html";
+  window.location.href = "https://nishayo.github.io/nishasinghal.github.io/work.html";
 });
 
 blogs.addEventListener("click", function () {
-  window.location.href = "/blogs.html";
+  window.location.href = "https://nishayo.github.io/nishasinghal.github.io/blogs.html";
 });
 
 contact.addEventListener("click", function () {
-  window.location.href = "/contact.html";
+  window.location.href = "https://nishayo.github.io/nishasinghal.github.io/contact.html";
 });
 
 
-// when clicked playing click_sound
-const sound_clip = new Audio('/sounds/click_sound.wav');
-const sound_btn = document.getElementsByClassName('nav-btn');
-sound_btn.forEach(ele=>ele.addEventListener('click', ()=>audio.play()));
+// // when clicked playing click_sound
+// const sound_clip = new Audio('https://nishayo.github.io/nishasinghal.github.io/sounds/click_sound.wav');
+// const sound_btn = document.getElementsByClassName('nav-btn');
+// sound_btn.forEach(ele=>ele.addEventListener('click', ()=>audio.play()));
 
 
 // BLOGS PAGE
