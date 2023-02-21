@@ -1,14 +1,15 @@
-// when hovered color darker
+// HOME PAGE
 
+//  buttons color change when hovered
 let hover = document.querySelectorAll(".hover-btn");
 
 hover.forEach(function (hover) {
   hover.addEventListener("mouseenter", function () {
-    this.style.backgroundColor = "rgba(223, 214, 214, 0.5)";
+    this.style.backgroundColor = "rgba(223, 214, 214, 1)";
   });
 
   hover.addEventListener("mouseleave", function () {
-    this.style.backgroundColor = "rgba(223, 214, 214, 0.25)";
+    this.style.backgroundColor = "rgba(223, 214, 214, 0.5)";
   });
 });
 
@@ -20,25 +21,31 @@ let blogs = document.getElementById("blogs");
 let contact = document.getElementById("contact");
 
 about.addEventListener("click", function () {
-  window.location.href = "https://nishayo.github.io/nishasinghal.github.io/about.html";
+  window.location.href = "/about.html";
 });
 
 work.addEventListener("click", function () {
-  window.location.href = "https://nishayo.github.io/nishasinghal.github.io/work.html";
+  window.location.href = "/work.html";
 });
 
 blogs.addEventListener("click", function () {
-  window.location.href = "https://nishayo.github.io/nishasinghal.github.io/blogs.html";
+  window.location.href = "/blogs.html";
 });
 
 contact.addEventListener("click", function () {
-  window.location.href = "https://nishayo.github.io/nishasinghal.github.io/contact.html";
+  window.location.href = "/contact.html";
 });
 
 
-// blogs page
-// when clicked redirecting to blogs
+// when clicked playing click_sound
+const sound_clip = new Audio('/sounds/click_sound.wav');
+const sound_btn = document.getElementsByClassName('nav-btn');
+sound_btn.forEach(ele=>ele.addEventListener('click', ()=>audio.play()));
+
+
+// BLOGS PAGE
+// redirecting to 1st blog when clicked
 let blog1 = document.getElementById("blog1");
-blog1.addEventListener("click",function(){
-  window.location.href = "https://nishayo.github.io/nishasinghal.github.io/blog1.html";
+blog1.addEventListener("click", function () {
+  window.location.href = "/blog1.html";
 });

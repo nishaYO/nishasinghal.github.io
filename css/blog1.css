@@ -29,7 +29,7 @@
 
 .small-images {
   width: 500px;
-}  
+}
 
 .code-snippet {
   background-color: #c6c6c6;
@@ -59,7 +59,7 @@ a {
 
 /* applying media queries */
 /* for small devices */
-@media (width<480px) {
+@media screen and (max-width: 480px) {
   .blog-bg {
     width: 100%;
   }
@@ -87,9 +87,8 @@ a {
   }
 }
 
-
 /* for medium devices */
-@media (width<=800px) and (width >=480px) {
+@media screen and (min-width: 480px) and (max-width: 800px) {
   .blog-bg {
     width: 100%;
   }

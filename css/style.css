@@ -3,79 +3,88 @@
   padding: 0;
 }
 
-/* home page */
-
+/* HOME PAGE */
 nav ul li {
   list-style: none;
   margin-bottom: 40px;
-} 
-
-.nav-btn {
-  color: white;
-  background-color: rgba(223, 214, 214, 0.25);
-  border-radius: 10px;
-  border: none;
-  padding: 20px 40px;
-  min-width: 160px;
-  font-family: Aboreto;
-  font-weight: 1000;
 }
 
-/* about page */
+.nav-btn {
+  color: rgb(33, 33, 33);
+  background-color: rgba(223, 214, 214, 0.5);
+  border-radius: 10px;
+  border: none;
+  padding: 15px 30px;
+  min-width: 200px;
+  font-family: "Sue Ellen Francisco";
+  letter-spacing: 3px;
+  font-size: 25px;
+  font-weight: 1000;
+  box-shadow: 2px 2px 1px 1px rgba(70, 70, 70, 0.25);
+}
 
-.box{
+/* ABOUT PAGE */
+
+.box {
   background-color: transparent;
   height: 70vh;
   width: 40%;
-  margin: 30px 70px;
+  margin: 10% 4%;
+  
 }
+
 .custom-container {
-  background-color: rgba(223, 214, 214, 0.25);
+  background-color: rgba(223, 214, 214, 0.8);
   border-radius: 10px;
   border: none;
-  font-family: Lato;
-  font-weight: 1000;
+  font-family: "Just Another Hand";
+  line-height: 25px;
+  letter-spacing: 1px;
+  font-weight: 500;
   /* font-size: 50px; */
-  color: rgb(40, 38, 38);
+  color: rgb(0, 0, 0);
   margin: 20px;
   padding: 20px 10px;
   width: fit-content;
   min-width: 40em;
+  box-shadow: 2px 2px 1px 1px rgba(70, 70, 70, 0.25);
 }
 
 
-/* blog page */
+/* BLOG PAGE */
 
-.blg-btn{
+.blg-btn {
   border: none;
-  color: rgb(255, 255, 255);
+  color: rgb(33, 32, 32);
   text-align: center;
-  background-color: rgba(223, 214, 214, 0.25);
+  background-color: rgba(223, 214, 214, 0.75);
   border-radius: 10px;
-  font-family: Aboreto;
+  font-family: 'Sue Ellen Francisco';
+  letter-spacing: 2px;
   padding: 40px 70px;
   font-weight: 800;
   font-size: x-large;
+  max-width: 80%;
 }
 
-/* contact page */
-#contact-title{
+/* CONTACT PAGE */
+#contact-title {
   color: rgb(42, 41, 41);
   margin: auto;
   text-align: center;
   padding: 10px;
 }
 
-#contact-form{
+#contact-form {
   color: rgb(42, 41, 41);
   /* width: 90%;
   height: 60%; */
   margin: auto;
 }
 
-.links{
+.links {
   width: 90%;
-  height: 30%;
+  height: 15%;
   margin: auto;
 }
 
@@ -88,21 +97,17 @@ form {
   border-radius: 5px;
 }
 
-input[type="text"], input[type="email"], textarea {
+#email, #message{
   width: 100%;
   padding: 10px;
   margin: 5px 0;
   box-sizing: border-box;
-  border: 1px solid #ccc;
+  border: 1px solid #d0d0d0;
   border-radius: 5px;
 }
 
-input[type="text"]{
-  height: 200%;
-}
-
-button[type="submit"] {
-  width: 20%;
+#form-button {
+  width: fit-content;
   padding: 10px;
   background-color: #7e827ea7;
   color: white;
@@ -112,7 +117,7 @@ button[type="submit"] {
   margin: 0 auto;
 }
 
-button[type="submit"]:hover {
+#form-button:hover {
   background-color: #c6cecd;
 }
 
@@ -120,4 +125,64 @@ label {
   font-weight: bold;
   display: block;
   margin-bottom: 10px;
+}
+
+label, #contact-title{
+  font-family: "Sue Ellen Francisco";
+  font-size: larger;
+}
+
+#contact-title{
+  font-size: 30px;
+}
+/* WORK PAGE */
+.swiper {
+  padding: 15px;
+  width: 800px;
+  height: 480px;
+  margin-top: 5%;
+  background-color: rgba(223, 214, 214, 0.25);
+  border-radius: 10px;
+  max-width: 90%;
+}
+
+.swiper .swiper-button-next,
+.swiper .swiper-button-prev {
+  background-color: rgba(52, 55, 57, 0.207);
+  color: white;
+}
+
+.swiper .swiper-pagination-bullet-active {
+  background-color: white;
+}
+
+h2 {
+  text-align: center;
+  height: 10%;
+  padding-top: 10px;
+}
+
+#work-title {
+  width: fit-content;
+  text-align: center;
+  background-color: rgba(223, 214, 214, 0.25);
+  padding: 15px;
+  border-radius: 10px;
+  max-width: 75%;
+  font-family: "Sue Ellen Francisco" ;
+  font-weight: 800px;
+}
+
+.project-title{
+    font-family: "Sue Ellen Francisco" ;
+}
+
+.project-code {
+  text-align: right;
+  width: 95%;
+  font-size: 20px;
+}
+.project-code a {
+  color: blue;
+  text-decoration: underline;
 }
