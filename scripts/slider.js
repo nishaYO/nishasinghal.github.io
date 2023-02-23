@@ -11,21 +11,10 @@ const swiper = new Swiper(".swiper", {
   direction: "horizontal",
   loop: true,
 
-  //pagination
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-
   //Navigation arrows
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
     class: ".white",
-  },
-
-  //scrollbar
-  scrollbar: {
-    el: ".swiper-scrollbar",
   },
 });
